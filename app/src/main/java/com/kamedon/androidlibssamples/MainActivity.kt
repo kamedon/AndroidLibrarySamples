@@ -1,9 +1,9 @@
 package com.kamedon.androidlibssamples
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.trello.rxlifecycle.components.support.RxAppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : RxAppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
